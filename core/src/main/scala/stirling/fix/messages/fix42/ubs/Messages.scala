@@ -47,7 +47,7 @@ import stirling.fix42.{
 }
 import stirling.fix.tags.fix42.ubs.Internalization;
 
-class DontKnowTrade(header: MessageHeader) extends stirling.fix.messages.fix42.DontKnowTrade(header) {
+class DontKnowTrade(header: MessageHeader) extends stirling.fix42.DontKnowTrade(header) {
   field(OrderID.Tag)
   field(ExecID.Tag)
   field(DKReason.Tag)
@@ -58,7 +58,7 @@ class DontKnowTrade(header: MessageHeader) extends stirling.fix.messages.fix42.D
   field(LastPx.Tag, Required.NO)
 }
 
-class ExecutionReport(header: MessageHeader) extends stirling.fix.messages.fix42.ExecutionReport(header) {
+class ExecutionReport(header: MessageHeader) extends stirling.fix42.ExecutionReport(header) {
   field(OrderID.Tag)
   field(ClOrdID.Tag)
   field(OrigClOrdID.Tag, Required.NO)
@@ -85,7 +85,7 @@ class ExecutionReport(header: MessageHeader) extends stirling.fix.messages.fix42
   field(TransactTime.Tag)
 }
 
-class NewOrderSingle(header: MessageHeader) extends stirling.fix.messages.fix42.NewOrderSingle(header) {
+class NewOrderSingle(header: MessageHeader) extends stirling.fix42.NewOrderSingle(header) {
   field(ClOrdID.Tag)
   field(ExecInst.Tag)
   field(Symbol.Tag)
@@ -102,14 +102,14 @@ class NewOrderSingle(header: MessageHeader) extends stirling.fix.messages.fix42.
   field(Internalization.Tag, Required.NO)
 }
 
-class OrderCancelReject(header: MessageHeader) extends stirling.fix.messages.fix42.OrderCancelReject(header) {
+class OrderCancelReject(header: MessageHeader) extends stirling.fix42.OrderCancelReject(header) {
   field(ClOrdID.Tag)
   field(OrigClOrdID.Tag)
   field(OrderID.Tag)
   field(OrdStatus.Tag)
 }
 
-class OrderCancelRequest(header: MessageHeader) extends stirling.fix.messages.fix42.OrderCancelRequest(header) {
+class OrderCancelRequest(header: MessageHeader) extends stirling.fix42.OrderCancelRequest(header) {
   field(ClOrdID.Tag)
   field(OrigClOrdID.Tag)
   field(Symbol.Tag)
@@ -117,7 +117,7 @@ class OrderCancelRequest(header: MessageHeader) extends stirling.fix.messages.fi
   field(TransactTime.Tag)
 }
 
-class OrderCancelReplaceRequest(header: MessageHeader) extends stirling.fix.messages.fix42.OrderCancelReplaceRequest(header) {
+class OrderCancelReplaceRequest(header: MessageHeader) extends stirling.fix42.OrderCancelReplaceRequest(header) {
   field(ClOrdID.Tag)
   field(OrigClOrdID.Tag)
   field(Symbol.Tag)

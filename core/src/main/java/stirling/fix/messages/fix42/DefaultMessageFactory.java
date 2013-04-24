@@ -33,9 +33,16 @@ import stirling.fix.messages.SequenceReset;
 import stirling.fix.messages.Tag;
 import stirling.fix.messages.TestRequest;
 import stirling.fix.messages.UnsupportedMsgTypeException;
-import stirling.fix.messages.fix42.BusinessMessageReject;
 import stirling.fix.messages.fix42.MsgTypeValue;
-import stirling.fix.messages.fix42.Reject;
+import stirling.fix42.Allocation;
+import stirling.fix42.BusinessMessageReject;
+import stirling.fix42.ExecutionReport;
+import stirling.fix42.Logon;
+import stirling.fix42.NewOrderSingle;
+import stirling.fix42.OrderCancelReject;
+import stirling.fix42.OrderCancelRequest;
+import stirling.fix42.OrderStatusRequest;
+import stirling.fix42.Reject;
 
 import java.lang.reflect.Constructor;
 

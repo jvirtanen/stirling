@@ -37,7 +37,7 @@ import stirling.fix.messages.MessageHeader;
 import stirling.fix.messages.fix42.DefaultMessageFactory;
 import stirling.fix.messages.fix42.DefaultMessageHeader;
 import stirling.fix.messages.fix42.MsgTypeValue;
-import stirling.fix.messages.fix42.NewOrderSingle;
+import stirling.fix42.NewOrderSingle;
 import stirling.fix.session.HeartBtIntValue;
 import stirling.fix.session.Session;
 import stirling.fix.session.store.MongoSessionStore;

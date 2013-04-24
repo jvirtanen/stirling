@@ -22,14 +22,14 @@ import org.jmock.Expectations;
 
 import stirling.fix.messages.MessageVisitor;
 import stirling.fix.messages.fix42.MsgTypeValue;
-import stirling.fix.messages.fix42.ExecutionReport;
-import stirling.fix.messages.fix42.Logon;
 import stirling.fix42.AvgPx;
 import stirling.fix42.CumQty;
 import stirling.fix42.ExecID;
 import stirling.fix42.ExecTransType;
 import stirling.fix42.ExecType;
+import stirling.fix42.ExecutionReport;
 import stirling.fix42.LeavesQty;
+import stirling.fix42.Logon;
 import stirling.fix42.OrdStatus;
 import stirling.fix42.OrdType;
 import stirling.fix42.OrderID;

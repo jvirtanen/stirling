@@ -37,7 +37,7 @@ import stirling.fix42.TimeInForce;
 import stirling.fix42.TransactTime;
 import stirling.fix.tags.fix42.chix.europe.ExecInst;
 
-public class OrderCancelReplaceRequest extends stirling.fix.messages.fix42.OrderCancelReplaceRequest {
+public class OrderCancelReplaceRequest extends stirling.fix42.OrderCancelReplaceRequest {
     public OrderCancelReplaceRequest(MessageHeader header) {
         super(header);
 

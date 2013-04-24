@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package stirling.fix.messages.fix42;
+package stirling.fix42
 
 import stirling.fix.messages.{
   AbstractMessage,
@@ -35,7 +35,6 @@ import stirling.fix.messages.{
   Required,
   TradingSessionStatusRequest => TradingSessionStatusRequestTrait
 }
-import stirling.fix42._
 
 class Reject(header: MessageHeader) extends AbstractMessage(header) with RejectTrait {
   field(RefSeqNo.Tag)

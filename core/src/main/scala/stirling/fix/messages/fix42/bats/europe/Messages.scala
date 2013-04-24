@@ -79,7 +79,7 @@ import stirling.fix.tags.fix42.bats.europe.{
 }
 import stirling.fix.tags.fix43.ExecRestatementReason
 
-class OrderCancelReject(header: MessageHeader) extends stirling.fix.messages.fix42.OrderCancelReject(header) {
+class OrderCancelReject(header: MessageHeader) extends stirling.fix42.OrderCancelReject(header) {
   field(Account.Tag, Required.NO)
   field(ClOrdID.Tag)
   field(OrderID.Tag)
@@ -90,7 +90,7 @@ class OrderCancelReject(header: MessageHeader) extends stirling.fix.messages.fix
   field(CxlRejResponseTo.Tag)
 }
 
-class ExecutionReport(header: MessageHeader) extends stirling.fix.messages.fix42.ExecutionReport(header) {
+class ExecutionReport(header: MessageHeader) extends stirling.fix42.ExecutionReport(header) {
   field(Account.Tag, Required.NO)
   field(ClOrdID.Tag)
   field(CumQty.Tag)
@@ -149,7 +149,7 @@ class ExecutionReport(header: MessageHeader) extends stirling.fix.messages.fix42
   field(PegDifference.Tag, Required.NO)
 }
 
-class NewOrderSingle(header: MessageHeader) extends stirling.fix.messages.fix42.NewOrderSingle(header) {
+class NewOrderSingle(header: MessageHeader) extends stirling.fix42.NewOrderSingle(header) {
   field(Account.Tag, Required.NO)
   field(ClOrdID.Tag)
   field(Currency.Tag, new Required {
@@ -192,7 +192,7 @@ class NewOrderSingle(header: MessageHeader) extends stirling.fix.messages.fix42.
   field(OrigSubID.Tag, Required.NO)
 }
 
-class OrderCancelRequest(header: MessageHeader) extends stirling.fix.messages.fix42.OrderCancelRequest(header) {
+class OrderCancelRequest(header: MessageHeader) extends stirling.fix42.OrderCancelRequest(header) {
   field(Account.Tag, Required.NO)
   field(ClOrdID.Tag)
   field(Currency.Tag, new Required {
@@ -243,7 +243,7 @@ class TradeCancelCorrect(header: MessageHeader) extends AbstractMessage(header) 
   override def apply(visitor: MessageVisitor) = visitor.visit(this)
 }
 
-class OrderCancelReplaceRequest(header: MessageHeader) extends stirling.fix.messages.fix42.OrderCancelReplaceRequest(header) {
+class OrderCancelReplaceRequest(header: MessageHeader) extends stirling.fix42.OrderCancelReplaceRequest(header) {
   field(Account.Tag, Required.NO)
   field(ClOrdID.Tag)
   field(Currency.Tag, new Required {

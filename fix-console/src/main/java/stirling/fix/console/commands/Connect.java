@@ -33,10 +33,10 @@ import stirling.fix.console.ConsoleClient;
 import stirling.fix.messages.DefaultMessageVisitor;
 import stirling.fix.messages.FixMessage;
 import stirling.fix.messages.FixMessageParser;
-import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix.session.HeartBtIntValue;
 import stirling.fix.session.Session;
 import stirling.fix42.ClOrdID;
+import stirling.fix42.MsgTypeValue;
 import stirling.fix42.OrderID;
 
 public class Connect implements Command {

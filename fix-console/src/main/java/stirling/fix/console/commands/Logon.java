@@ -15,7 +15,7 @@
  */
 package stirling.fix.console.commands;
 
-import static stirling.fix.messages.fix42.MsgTypeValue.LOGON;
+import static stirling.fix42.MsgTypeValue.LOGON;
 
 import stirling.fix.console.ConsoleClient;
 import stirling.fix.messages.Message;

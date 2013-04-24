@@ -23,12 +23,12 @@ import stirling.lang.Predicate;
 
 import stirling.fix.messages.Field;
 import stirling.fix.messages.Message;
-import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix.messages.Required;
 import stirling.fix.messages.SequenceReset;
 import stirling.fix42.BeginSeqNo;
 import stirling.fix42.EndSeqNo;
 import stirling.fix42.GapFillFlag;
+import stirling.fix42.MsgTypeValue;
 import stirling.fix42.NewSeqNo;
 import stirling.fix42.RefSeqNo;
 

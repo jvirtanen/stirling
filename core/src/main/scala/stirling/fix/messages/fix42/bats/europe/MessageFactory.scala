@@ -15,7 +15,7 @@
  */
 package stirling.fix.messages.fix42.bats.europe
 
-import stirling.fix.messages.fix42.MsgTypeValue._
+import stirling.fix42.MsgTypeValue._
 import stirling.fix.messages.fix42.bats.europe.MsgTypeValue._
 
 class MessageFactory extends stirling.fix.messages.fix42.DefaultMessageFactory {

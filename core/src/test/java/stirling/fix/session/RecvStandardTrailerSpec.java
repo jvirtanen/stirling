@@ -19,12 +19,12 @@ import jdave.junit4.JDaveRunner;
 
 import org.junit.runner.RunWith;
 
-import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix42.BeginString;
 import stirling.fix42.BodyLength;
 import stirling.fix42.CheckSum;
 import stirling.fix42.MsgSeqNum;
 import stirling.fix42.MsgType;
+import stirling.fix42.MsgTypeValue;
 import stirling.fix42.SenderCompID;
 import stirling.fix42.SendingTime;
 import stirling.fix42.TargetCompID;

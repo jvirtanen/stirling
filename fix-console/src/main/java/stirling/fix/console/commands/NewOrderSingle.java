@@ -15,7 +15,7 @@
  */
 package stirling.fix.console.commands;
 
-import static stirling.fix.messages.fix42.MsgTypeValue.NEW_ORDER_SINGLE;
+import static stirling.fix42.MsgTypeValue.NEW_ORDER_SINGLE;
 
 import stirling.fix.console.ConsoleClient;
 import stirling.fix.messages.Message;

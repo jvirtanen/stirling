@@ -15,8 +15,8 @@
  */
 package stirling.fix.messages;
 
-import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix42.ExecID;
+import stirling.fix42.MsgTypeValue;
 
 public class DefaultMessageComparator implements MessageComparator {
     @Override public boolean equals(Message m1, Message m2) {

@@ -15,6 +15,6 @@
  */
 package stirling.fix.messages.fix42.bats.europe;
 
-public class MsgTypeValue extends stirling.fix.messages.fix42.MsgTypeValue {
+public class MsgTypeValue extends stirling.fix42.MsgTypeValue {
     public static final String TRADE_CANCEL_CORRECT = "UCC";
 }

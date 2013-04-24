@@ -18,8 +18,7 @@ package stirling.fix.messages
 import org.scalatest.matchers.MustMatchers
 import org.scalatest.{OneInstancePerTest, WordSpec}
 import stirling.fix.messages.Field.DELIMITER
-import stirling.fix.messages.fix42.MsgTypeValue
-import stirling.fix42.{MsgType, TargetCompID}
+import stirling.fix42.{MsgType, MsgTypeValue, TargetCompID}
 
 class MessageBufferSpec extends WordSpec with MustMatchers with OneInstancePerTest {
   "MessageBuffer" when {

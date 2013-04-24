@@ -19,7 +19,7 @@ import jdave.junit4.JDaveRunner;
 
 import org.junit.runner.RunWith;
 
-import stirling.fix.messages.fix42.MsgTypeValue;
+import stirling.fix42.MsgTypeValue;
 
 @RunWith(JDaveRunner.class) public class SupportThirdPartyAddressingSpec extends InitiatorSpecification {
     public class InitializedSession {

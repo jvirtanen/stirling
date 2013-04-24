@@ -19,8 +19,8 @@ import jdave.junit4.JDaveRunner;
 
 import org.junit.runner.RunWith;
 
-import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix42.GapFillFlag;
+import stirling.fix42.MsgTypeValue;
 import stirling.fix42.NewSeqNo;
 
 @RunWith(JDaveRunner.class) public class SendAppAndAdminMsgsSpec extends InitiatorSpecification {

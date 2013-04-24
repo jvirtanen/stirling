@@ -15,7 +15,7 @@
  */
 package stirling.fix.messages.fix42.chix.europe;
 
-import static stirling.fix.messages.fix42.MsgTypeValue.*;
+import static stirling.fix42.MsgTypeValue.*;
 
 public class MessageFactory extends stirling.fix.messages.fix42.DefaultMessageFactory {
     public MessageFactory() {

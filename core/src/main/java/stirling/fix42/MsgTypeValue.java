@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package stirling.fix.messages.fix42;
+package stirling.fix42;
 
 public class MsgTypeValue {
     public static final String HEARTBEAT = "0";

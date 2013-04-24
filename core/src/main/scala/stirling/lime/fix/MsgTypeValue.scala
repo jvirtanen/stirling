@@ -15,7 +15,7 @@
  */
 package stirling.lime.fix
 
-import stirling.fix.messages.fix42.MsgTypeValue._
+import stirling.fix42.MsgTypeValue._
 
 object MsgTypeValue {
   val Heartbeat                 = HEARTBEAT

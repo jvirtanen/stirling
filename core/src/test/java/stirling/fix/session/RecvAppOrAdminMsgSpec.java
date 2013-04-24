@@ -21,9 +21,10 @@ import org.junit.runner.RunWith;
 
 import stirling.fix.messages.Field;
 import stirling.fix.messages.Message;
-import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix42.AllocAccount;
 import stirling.fix42.AllocID;
+import stirling.fix42.AllocShares;
+import stirling.fix42.AllocTransType;
 import stirling.fix42.AvgPx;
 import stirling.fix42.BeginSeqNo;
 import stirling.fix42.CheckSum;
@@ -31,10 +32,12 @@ import stirling.fix42.ClOrdID;
 import stirling.fix42.CumQty;
 import stirling.fix42.EncryptMethod;
 import stirling.fix42.ExecID;
+import stirling.fix42.ExecTransType;
 import stirling.fix42.ExecType;
 import stirling.fix42.HeartBtInt;
 import stirling.fix42.LeavesQty;
 import stirling.fix42.MsgSeqNum;
+import stirling.fix42.MsgTypeValue;
 import stirling.fix42.NoAllocs;
 import stirling.fix42.NoOrders;
 import stirling.fix42.OrdStatus;
@@ -47,9 +50,6 @@ import stirling.fix42.Side;
 import stirling.fix42.Symbol;
 import stirling.fix42.TestReqID;
 import stirling.fix42.TradeDate;
-import stirling.fix42.AllocShares;
-import stirling.fix42.AllocTransType;
-import stirling.fix42.ExecTransType;
 
 @RunWith(JDaveRunner.class) public class RecvAppOrAdminMsgSpec extends InitiatorSpecification {
     public class InitializedSession {

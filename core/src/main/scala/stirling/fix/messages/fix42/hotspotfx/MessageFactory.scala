@@ -15,7 +15,7 @@
  */
 package stirling.fix.messages.fix42.hotspotfx
 
-import stirling.fix.messages.fix42.MsgTypeValue._
+import stirling.fix42.MsgTypeValue._
 
 class MessageFactory extends stirling.fix.messages.fix42.DefaultMessageFactory {
   message(EXECUTION_REPORT, classOf[ExecutionReport])

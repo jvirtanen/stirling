@@ -15,14 +15,14 @@
  */
 package stirling.fix.session;
 
-import static stirling.fix.messages.fix42.MsgTypeValue.BUSINESS_MESSAGE_REJECT;
-import static stirling.fix.messages.fix42.MsgTypeValue.HEARTBEAT;
-import static stirling.fix.messages.fix42.MsgTypeValue.LOGON;
-import static stirling.fix.messages.fix42.MsgTypeValue.LOGOUT;
-import static stirling.fix.messages.fix42.MsgTypeValue.REJECT;
-import static stirling.fix.messages.fix42.MsgTypeValue.RESEND_REQUEST;
-import static stirling.fix.messages.fix42.MsgTypeValue.SEQUENCE_RESET;
-import static stirling.fix.messages.fix42.MsgTypeValue.TEST_REQUEST;
+import static stirling.fix42.MsgTypeValue.BUSINESS_MESSAGE_REJECT;
+import static stirling.fix42.MsgTypeValue.HEARTBEAT;
+import static stirling.fix42.MsgTypeValue.LOGON;
+import static stirling.fix42.MsgTypeValue.LOGOUT;
+import static stirling.fix42.MsgTypeValue.REJECT;
+import static stirling.fix42.MsgTypeValue.RESEND_REQUEST;
+import static stirling.fix42.MsgTypeValue.SEQUENCE_RESET;
+import static stirling.fix42.MsgTypeValue.TEST_REQUEST;
 
 import java.util.logging.Logger;
 

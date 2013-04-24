@@ -13,27 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package stirling.fix.messages.fix42
+package stirling.fix42
 
 import stirling.fix.messages.{
   AbstractMessageHeader,
   Required
-}
-import stirling.fix42.{
-  DeliverToCompID,
-  DeliverToSubID,
-  MsgSeqNum,
-  OnBehalfOfCompID,
-  OnBehalfOfSubID,
-  OrigSendingTime,
-  PossDupFlag,
-  PossResend,
-  SenderCompID,
-  SenderSubID,
-  SendingTime,
-  TargetCompID,
-  TargetSubID,
-  SenderLocationID
 }
 
 class DefaultMessageHeader() extends AbstractMessageHeader {

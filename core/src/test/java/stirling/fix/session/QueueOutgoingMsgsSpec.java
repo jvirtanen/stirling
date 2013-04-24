@@ -21,11 +21,11 @@ import org.junit.runner.RunWith;
 
 import stirling.fix.messages.DefaultMessageVisitor;
 import stirling.fix.messages.MessageHeader;
-import stirling.fix.messages.fix42.DefaultMessageHeader;
 import stirling.fix.messages.fix42.MsgTypeValue;
-import stirling.fix42.NewOrderSingle;
 import stirling.fix42.BeginSeqNo;
+import stirling.fix42.DefaultMessageHeader;
 import stirling.fix42.EndSeqNo;
+import stirling.fix42.NewOrderSingle;
 
 @RunWith(JDaveRunner.class) public class QueueOutgoingMsgsSpec extends InitiatorSpecification {
     public class InitializedSession {

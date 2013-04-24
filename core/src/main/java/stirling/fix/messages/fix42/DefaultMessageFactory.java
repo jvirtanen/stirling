@@ -36,6 +36,7 @@ import stirling.fix.messages.UnsupportedMsgTypeException;
 import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix42.Allocation;
 import stirling.fix42.BusinessMessageReject;
+import stirling.fix42.DefaultMessageHeader;
 import stirling.fix42.ExecutionReport;
 import stirling.fix42.Logon;
 import stirling.fix42.NewOrderSingle;

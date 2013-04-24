@@ -26,8 +26,8 @@ import scala.language.implicitConversions
 import silvertip.Connection
 import stirling.fix.{Config, Version}
 import stirling.fix.messages.{DefaultMessageComparator, DefaultMessageVisitor, FixMessage, Message}
-import stirling.fix.messages.fix42.DefaultMessageFactory
 import stirling.fix.session.{HeartBtIntValue, Sequence, Session}
+import stirling.fix42.DefaultMessageFactory
 import stirling.fix42.MsgTypeValue.{HEARTBEAT, LOGON}
 import stirling.fix42.{EncryptMethod, HeartBtInt}
 

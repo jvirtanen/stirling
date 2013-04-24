@@ -15,7 +15,7 @@
  */
 package stirling.mbtrading.fix
 
-import stirling.fix.messages.fix42.DefaultMessageFactory
+import stirling.fix42.DefaultMessageFactory
 
 object MessageFactory extends DefaultMessageFactory {
   message(MsgTypeValue.ExecutionReport,           classOf[ExecutionReport])

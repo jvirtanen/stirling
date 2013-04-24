@@ -32,9 +32,9 @@ import silvertip.Events;
 import stirling.fix.Version;
 import stirling.fix.console.commands.*;
 import stirling.fix.messages.MessageFactory;
-import stirling.fix.messages.fix42.DefaultMessageFactory;
 import stirling.fix.session.Session;
 import stirling.fix.session.store.InMemorySessionStore;
+import stirling.fix42.DefaultMessageFactory;
 
 public class ConsoleClient {
     private static final Version VERSION = Version.FIX_4_2;

@@ -31,7 +31,7 @@ public class Profile implements Command {
     private Map<String, MessageFactory> factories = new HashMap<String, MessageFactory>();
 
     public Profile() {
-        factories.put("default", new stirling.fix.messages.fix42.DefaultMessageFactory());
+        factories.put("default", new stirling.fix42.DefaultMessageFactory());
         factories.put("bats-europe", new stirling.fix.messages.fix42.bats.europe.MessageFactory());
         factories.put("mb-trading", stirling.mbtrading.fix.MessageFactory$.MODULE$);
         factories.put("burgundy", new stirling.fix.messages.fix44.burgundy.MessageFactory());

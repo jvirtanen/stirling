@@ -13,12 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package stirling.fix.messages.fix42
+package stirling.fix42
 
 import org.scalatest.WordSpec
 import org.scalatest.matchers.MustMatchers
 import stirling.fix.messages.StringTag
-import stirling.fix42.Account
 
 class DefaultMessageFactorySpec extends WordSpec with MustMatchers {
   "DefaultMessageFactory" should {

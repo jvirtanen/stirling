@@ -17,7 +17,7 @@ package stirling.fix.messages.fix42.chix.europe;
 
 import static stirling.fix42.MsgTypeValue.*;
 
-public class MessageFactory extends stirling.fix.messages.fix42.DefaultMessageFactory {
+public class MessageFactory extends stirling.fix42.DefaultMessageFactory {
     public MessageFactory() {
         message(EXECUTION_REPORT, ExecutionReport.class);
         message(ORDER_CANCEL_REJECT, OrderCancelReject.class);

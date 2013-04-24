@@ -18,7 +18,7 @@ package stirling.fix.messages.fix42.bats.europe
 import stirling.fix42.MsgTypeValue._
 import stirling.fix.messages.fix42.bats.europe.MsgTypeValue._
 
-class MessageFactory extends stirling.fix.messages.fix42.DefaultMessageFactory {
+class MessageFactory extends stirling.fix42.DefaultMessageFactory {
   message(EXECUTION_REPORT, classOf[ExecutionReport])
   message(ORDER_CANCEL_REJECT, classOf[OrderCancelReject])
   message(NEW_ORDER_SINGLE, classOf[NewOrderSingle])

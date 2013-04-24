@@ -19,7 +19,7 @@ import org.joda.time.DateTime;
 import java.nio.ByteBuffer;
 
 import stirling.fix.messages.FixMessage;
-import stirling.fix.messages.fix42.DefaultMessageFactory;
+import stirling.fix42.DefaultMessageFactory;
 import stirling.fix42.MsgSeqNum;
 
 public class Parser {

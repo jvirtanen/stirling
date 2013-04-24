@@ -17,7 +17,7 @@ package stirling.fix.messages.fix44.burgundy
 
 import stirling.fix.messages.fix44.MsgTypeValue._
 
-class MessageFactory extends stirling.fix.messages.fix42.DefaultMessageFactory {
+class MessageFactory extends stirling.fix42.DefaultMessageFactory {
   message(BUSINESS_MESSAGE_REJECT, classOf[BusinessMessageReject])
   message(DONT_KNOW_TRADE, classOf[DontKnowTrade])
   message(EXECUTION_REPORT, classOf[ExecutionReport])

@@ -34,7 +34,7 @@ import stirling.fix.messages.DefaultMessageVisitor;
 import stirling.fix.messages.FixMessageParser;
 import stirling.fix.messages.Message;
 import stirling.fix.messages.MessageHeader;
-import stirling.fix.messages.fix42.DefaultMessageFactory;
+import stirling.fix42.DefaultMessageFactory;
 import stirling.fix42.DefaultMessageHeader;
 import stirling.fix42.MsgTypeValue;
 import stirling.fix42.NewOrderSingle;

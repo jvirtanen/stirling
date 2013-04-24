@@ -20,21 +20,21 @@ import stirling.fix.messages.MessageVisitor;
 import stirling.fix.messages.Required;
 import stirling.fix.messages.AbstractMessage;
 
-import stirling.fix.tags.fix42.ClOrdID;
-import stirling.fix.tags.fix42.ExpireTime;
-import stirling.fix.tags.fix42.HandlInst;
-import stirling.fix.tags.fix42.MaxFloor;
-import stirling.fix.tags.fix42.MinQty;
-import stirling.fix.tags.fix42.OrdType;
-import stirling.fix.tags.fix42.OrderCapacity;
-import stirling.fix.tags.fix42.OrderQty;
-import stirling.fix.tags.fix42.OrigClOrdID;
-import stirling.fix.tags.fix42.PegDifference;
-import stirling.fix.tags.fix42.Price;
-import stirling.fix.tags.fix42.Side;
-import stirling.fix.tags.fix42.Symbol;
-import stirling.fix.tags.fix42.TimeInForce;
-import stirling.fix.tags.fix42.TransactTime;
+import stirling.fix42.ClOrdID;
+import stirling.fix42.ExpireTime;
+import stirling.fix42.HandlInst;
+import stirling.fix42.MaxFloor;
+import stirling.fix42.MinQty;
+import stirling.fix42.OrdType;
+import stirling.fix42.OrderCapacity;
+import stirling.fix42.OrderQty;
+import stirling.fix42.OrigClOrdID;
+import stirling.fix42.PegDifference;
+import stirling.fix42.Price;
+import stirling.fix42.Side;
+import stirling.fix42.Symbol;
+import stirling.fix42.TimeInForce;
+import stirling.fix42.TransactTime;
 import stirling.fix.tags.fix42.chix.europe.ExecInst;
 
 public class OrderCancelReplaceRequest extends stirling.fix.messages.fix42.OrderCancelReplaceRequest {

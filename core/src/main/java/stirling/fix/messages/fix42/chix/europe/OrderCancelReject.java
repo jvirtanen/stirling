@@ -20,12 +20,12 @@ import stirling.fix.messages.MessageVisitor;
 import stirling.fix.messages.Required;
 import stirling.fix.messages.AbstractMessage;
 
-import stirling.fix.tags.fix42.ClOrdID;
-import stirling.fix.tags.fix42.CxlRejReason;
-import stirling.fix.tags.fix42.OrdStatus;
-import stirling.fix.tags.fix42.OrderID;
-import stirling.fix.tags.fix42.OrigClOrdID;
-import stirling.fix.tags.fix42.Text;
+import stirling.fix42.ClOrdID;
+import stirling.fix42.CxlRejReason;
+import stirling.fix42.OrdStatus;
+import stirling.fix42.OrderID;
+import stirling.fix42.OrigClOrdID;
+import stirling.fix42.Text;
 
 public class OrderCancelReject extends AbstractMessage implements stirling.fix.messages.OrderCancelReject {
     public OrderCancelReject(MessageHeader header) {

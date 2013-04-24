@@ -18,7 +18,7 @@ package stirling.fix.messages
 import java.util.Locale
 import org.scalatest.WordSpec
 import org.scalatest.matchers.MustMatchers
-import stirling.fix.tags.fix42.BidPx
+import stirling.fix42.BidPx
 
 class FloatFieldSpec extends WordSpec with MustMatchers {
   "FloatField" should {

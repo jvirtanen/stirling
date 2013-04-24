@@ -15,7 +15,6 @@
  */
 package stirling.fix.messages;
 
-
 /**
  * @author Pekka Enberg 
  */

@@ -16,7 +16,10 @@
 package stirling
 
 import stirling.fix.messages
+import stirling.fix.tags.fix43
 
 package object fix42 {
   type Message = messages.Message
+
+  val SessionRejectReason = fix43.SessionRejectReason
 }

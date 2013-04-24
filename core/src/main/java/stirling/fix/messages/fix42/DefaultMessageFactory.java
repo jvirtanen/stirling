@@ -114,10 +114,10 @@ public class DefaultMessageFactory implements MessageFactory {
     private List<String> getTagsPackages() {
         List<String> packages = new ArrayList<String>();
         packages.add(getTagsPackage());
-        packages.add("stirling.fix.tags.fix42");
         packages.add("stirling.fix.tags.fix43");
         packages.add("stirling.fix.tags.fix44");
         packages.add("stirling.fix.tags");
+        packages.add("stirling.fix42");
         return packages;
     }
 

@@ -20,14 +20,14 @@ import java.nio.ByteBuffer;
 import org.joda.time.DateTime;
 import org.joda.time.Minutes;
 
-import stirling.fix.tags.fix42.BeginString;
-import stirling.fix.tags.fix42.BodyLength;
-import stirling.fix.tags.fix42.DeliverToCompID;
-import stirling.fix.tags.fix42.MsgType;
-import stirling.fix.tags.fix42.OnBehalfOfCompID;
-import stirling.fix.tags.fix42.OrigSendingTime;
-import stirling.fix.tags.fix42.PossDupFlag;
-import stirling.fix.tags.fix42.SendingTime;
+import stirling.fix42.BeginString;
+import stirling.fix42.BodyLength;
+import stirling.fix42.DeliverToCompID;
+import stirling.fix42.MsgType;
+import stirling.fix42.OnBehalfOfCompID;
+import stirling.fix42.OrigSendingTime;
+import stirling.fix42.PossDupFlag;
+import stirling.fix42.SendingTime;
 
 public abstract class AbstractMessageHeader extends DefaultFieldContainer implements MessageHeader {
     private static final Minutes MAX_TIME_DIFFERENCE = Minutes.TWO;

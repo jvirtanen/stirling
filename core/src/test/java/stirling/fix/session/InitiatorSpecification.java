@@ -68,17 +68,17 @@ import stirling.fix.session.store.InMemorySessionStore;
 import stirling.fix.session.store.DiskSessionStore;
 import stirling.fix.session.store.MongoSessionStore;
 import stirling.fix.session.store.SessionStore;
-import stirling.fix.tags.fix42.BeginSeqNo;
-import stirling.fix.tags.fix42.BeginString;
-import stirling.fix.tags.fix42.BodyLength;
-import stirling.fix.tags.fix42.EncryptMethod;
-import stirling.fix.tags.fix42.EndSeqNo;
-import stirling.fix.tags.fix42.HeartBtInt;
-import stirling.fix.tags.fix42.MsgType;
-import stirling.fix.tags.fix42.OrigSendingTime;
-import stirling.fix.tags.fix42.SenderCompID;
-import stirling.fix.tags.fix42.SendingTime;
-import stirling.fix.tags.fix42.TargetCompID;
+import stirling.fix42.BeginSeqNo;
+import stirling.fix42.BeginString;
+import stirling.fix42.BodyLength;
+import stirling.fix42.EncryptMethod;
+import stirling.fix42.EndSeqNo;
+import stirling.fix42.HeartBtInt;
+import stirling.fix42.MsgType;
+import stirling.fix42.OrigSendingTime;
+import stirling.fix42.SenderCompID;
+import stirling.fix42.SendingTime;
+import stirling.fix42.TargetCompID;
 
 public class InitiatorSpecification extends Specification<Session> {
     private static final String dateTimeFormat = "yyyy-MM-dd'T'HH:mm:ss.000'Z'";

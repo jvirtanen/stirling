@@ -19,7 +19,7 @@ import org.joda.time.DateTime
 import org.joda.time.DateTimeZone._
 import org.scalatest.WordSpec
 import org.scalatest.matchers.MustMatchers
-import stirling.fix.tags.fix42.OrigTime
+import stirling.fix42.OrigTime
 
 class UtcTimestampFieldSpec extends WordSpec with MustMatchers with UtcTimestampFieldFixtures {
   "UtcTimestampField" when {

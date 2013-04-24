@@ -41,9 +41,9 @@ import stirling.fix.messages.StringField;
 import stirling.fix.messages.Tag;
 import stirling.fix.messages.UtcTimestampField;
 import stirling.fix.messages.Value;
-import stirling.fix.tags.fix42.OrderID;
-import stirling.fix.tags.fix42.OrigClOrdID;
-import stirling.fix.tags.fix42.TransactTime;
+import stirling.fix42.OrderID;
+import stirling.fix42.OrigClOrdID;
+import stirling.fix42.TransactTime;
 
 public abstract class FixMessageCommand implements Command {
     private static final Logger logger = Logger.getLogger("ConsoleClient");

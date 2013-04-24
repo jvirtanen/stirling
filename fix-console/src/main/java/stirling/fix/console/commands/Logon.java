@@ -20,8 +20,8 @@ import static stirling.fix.messages.fix42.MsgTypeValue.LOGON;
 import stirling.fix.console.ConsoleClient;
 import stirling.fix.messages.Message;
 import stirling.fix.messages.MessageFactory;
-import stirling.fix.tags.fix42.EncryptMethod;
-import stirling.fix.tags.fix42.HeartBtInt;
+import stirling.fix42.EncryptMethod;
+import stirling.fix42.HeartBtInt;
 
 public class Logon extends FixMessageCommand {
     @Override protected Message newMessage(ConsoleClient client) {

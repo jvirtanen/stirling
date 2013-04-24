@@ -35,7 +35,7 @@ import stirling.fix.messages.{
   Required,
   TradingSessionStatusRequest => TradingSessionStatusRequestTrait
 }
-import stirling.fix.tags.fix42._
+import stirling.fix42._
 
 class Reject(header: MessageHeader) extends AbstractMessage(header) with RejectTrait {
   field(RefSeqNo.Tag)

@@ -19,7 +19,7 @@ import stirling.fix.messages.{
   MessageHeader,
   Required
 }
-import stirling.fix.tags.fix42.{
+import stirling.fix42.{
   Account,
   AvgPx,
   ClOrdID,

@@ -20,26 +20,26 @@ import stirling.fix.messages.MessageVisitor;
 import stirling.fix.messages.Required;
 import stirling.fix.messages.AbstractMessage;
 
-import stirling.fix.tags.fix42.Account;
-import stirling.fix.tags.fix42.ClOrdID;
-import stirling.fix.tags.fix42.Currency;
-import stirling.fix.tags.fix42.ExpireTime;
-import stirling.fix.tags.fix42.HandlInst;
-import stirling.fix.tags.fix42.MaxFloor;
-import stirling.fix.tags.fix42.MinQty;
-import stirling.fix.tags.fix42.OrdType;
-import stirling.fix.tags.fix42.OrderCapacity;
-import stirling.fix.tags.fix42.OrderQty;
-import stirling.fix.tags.fix42.PegDifference;
-import stirling.fix.tags.fix42.Price;
-import stirling.fix.tags.fix42.SecurityExchange;
-import stirling.fix.tags.fix42.SecurityID;
-import stirling.fix.tags.fix42.Symbol;
-import stirling.fix.tags.fix42.TransactTime;
 import stirling.fix.tags.fix42.chix.europe.ExecInst;
 import stirling.fix.tags.fix42.chix.europe.IDSource;
-import stirling.fix.tags.fix42.Side;
-import stirling.fix.tags.fix42.TimeInForce;
+import stirling.fix42.Account;
+import stirling.fix42.ClOrdID;
+import stirling.fix42.Currency;
+import stirling.fix42.ExpireTime;
+import stirling.fix42.HandlInst;
+import stirling.fix42.MaxFloor;
+import stirling.fix42.MinQty;
+import stirling.fix42.OrdType;
+import stirling.fix42.OrderCapacity;
+import stirling.fix42.OrderQty;
+import stirling.fix42.PegDifference;
+import stirling.fix42.Price;
+import stirling.fix42.SecurityExchange;
+import stirling.fix42.SecurityID;
+import stirling.fix42.Side;
+import stirling.fix42.Symbol;
+import stirling.fix42.TimeInForce;
+import stirling.fix42.TransactTime;
 
 public class NewOrderSingle extends AbstractMessage implements stirling.fix.messages.NewOrderSingle {
     public NewOrderSingle(MessageHeader header) {

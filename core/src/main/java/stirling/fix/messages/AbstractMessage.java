@@ -26,21 +26,21 @@ import stirling.lang.Objects;
 import org.joda.time.DateTime;
 
 import stirling.fix.Config;
-import stirling.fix.tags.fix42.BeginString;
-import stirling.fix.tags.fix42.BodyLength;
-import stirling.fix.tags.fix42.CheckSum;
-import stirling.fix.tags.fix42.DeliverToCompID;
-import stirling.fix.tags.fix42.MsgSeqNum;
-import stirling.fix.tags.fix42.MsgType;
-import stirling.fix.tags.fix42.OnBehalfOfCompID;
-import stirling.fix.tags.fix42.OrigSendingTime;
-import stirling.fix.tags.fix42.PossDupFlag;
-import stirling.fix.tags.fix42.PossResend;
-import stirling.fix.tags.fix42.SenderCompID;
-import stirling.fix.tags.fix42.SenderSubID;
-import stirling.fix.tags.fix42.SendingTime;
-import stirling.fix.tags.fix42.TargetCompID;
-import stirling.fix.tags.fix42.TargetSubID;
+import stirling.fix42.BeginString;
+import stirling.fix42.BodyLength;
+import stirling.fix42.CheckSum;
+import stirling.fix42.DeliverToCompID;
+import stirling.fix42.MsgSeqNum;
+import stirling.fix42.MsgType;
+import stirling.fix42.OnBehalfOfCompID;
+import stirling.fix42.OrigSendingTime;
+import stirling.fix42.PossDupFlag;
+import stirling.fix42.PossResend;
+import stirling.fix42.SenderCompID;
+import stirling.fix42.SenderSubID;
+import stirling.fix42.SendingTime;
+import stirling.fix42.TargetCompID;
+import stirling.fix42.TargetSubID;
 
 /**
  * @author Pekka Enberg

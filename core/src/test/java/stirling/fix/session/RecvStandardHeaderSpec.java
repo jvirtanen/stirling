@@ -24,17 +24,17 @@ import stirling.fix.messages.DefaultMessageVisitor;
 import stirling.fix.messages.Message;
 import stirling.fix.messages.MessageVisitor;
 import stirling.fix.messages.fix42.MsgTypeValue;
-import stirling.fix.tags.fix42.BeginString;
-import stirling.fix.tags.fix42.BodyLength;
-import stirling.fix.tags.fix42.CheckSum;
-import stirling.fix.tags.fix42.EncryptMethod;
-import stirling.fix.tags.fix42.HeartBtInt;
-import stirling.fix.tags.fix42.MsgSeqNum;
-import stirling.fix.tags.fix42.MsgType;
-import stirling.fix.tags.fix42.SenderCompID;
-import stirling.fix.tags.fix42.SendingTime;
-import stirling.fix.tags.fix42.TargetCompID;
-import stirling.fix.tags.fix42.TestReqID;
+import stirling.fix42.BeginString;
+import stirling.fix42.BodyLength;
+import stirling.fix42.CheckSum;
+import stirling.fix42.EncryptMethod;
+import stirling.fix42.HeartBtInt;
+import stirling.fix42.MsgSeqNum;
+import stirling.fix42.MsgType;
+import stirling.fix42.SenderCompID;
+import stirling.fix42.SendingTime;
+import stirling.fix42.TargetCompID;
+import stirling.fix42.TestReqID;
 
 @RunWith(JDaveRunner.class) public class RecvStandardHeaderSpec extends InitiatorSpecification {
     public class InitializedSession {

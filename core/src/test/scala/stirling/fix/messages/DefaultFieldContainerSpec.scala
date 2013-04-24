@@ -17,7 +17,7 @@ package stirling.fix.messages
 
 import org.scalatest.WordSpec
 import org.scalatest.matchers.MustMatchers
-import stirling.fix.tags.fix42.MsgType
+import stirling.fix42.MsgType
 
 class DefaultFieldContainerSpec extends WordSpec with MustMatchers with DefaultFieldContainerFixtures {
   "DefaultFieldContainer" should {

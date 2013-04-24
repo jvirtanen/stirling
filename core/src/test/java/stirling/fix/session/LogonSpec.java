@@ -21,10 +21,10 @@ import org.junit.runner.RunWith;
 
 import stirling.fix.messages.Message;
 import stirling.fix.messages.fix42.MsgTypeValue;
-import stirling.fix.tags.fix42.EncryptMethod;
-import stirling.fix.tags.fix42.GapFillFlag;
-import stirling.fix.tags.fix42.HeartBtInt;
-import stirling.fix.tags.fix42.NewSeqNo;
+import stirling.fix42.EncryptMethod;
+import stirling.fix42.GapFillFlag;
+import stirling.fix42.HeartBtInt;
+import stirling.fix42.NewSeqNo;
 import stirling.lang.Predicate;
 
 @RunWith(JDaveRunner.class) public class LogonSpec extends InitiatorSpecification {

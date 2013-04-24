@@ -19,20 +19,20 @@ import stirling.fix.messages.AbstractMessage;
 import stirling.fix.messages.MessageHeader;
 import stirling.fix.messages.MessageVisitor;
 import stirling.fix.messages.Required;
-import stirling.fix.tags.fix42.ClOrdID;
-import stirling.fix.tags.fix42.Currency;
-import stirling.fix.tags.fix42.CustomerOrFirm;
-import stirling.fix.tags.fix42.ExDestination;
-import stirling.fix.tags.fix42.HandlInst;
-import stirling.fix.tags.fix42.MaturityMonthYear;
-import stirling.fix.tags.fix42.OrdType;
-import stirling.fix.tags.fix42.OrderQty;
-import stirling.fix.tags.fix42.Price;
-import stirling.fix.tags.fix42.SecurityType;
-import stirling.fix.tags.fix42.Side;
-import stirling.fix.tags.fix42.Symbol;
-import stirling.fix.tags.fix42.TransactTime;
-import stirling.fix.tags.fix42.TimeInForce;
+import stirling.fix42.ClOrdID;
+import stirling.fix42.Currency;
+import stirling.fix42.CustomerOrFirm;
+import stirling.fix42.ExDestination;
+import stirling.fix42.HandlInst;
+import stirling.fix42.MaturityMonthYear;
+import stirling.fix42.OrdType;
+import stirling.fix42.OrderQty;
+import stirling.fix42.Price;
+import stirling.fix42.SecurityType;
+import stirling.fix42.Side;
+import stirling.fix42.Symbol;
+import stirling.fix42.TransactTime;
+import stirling.fix42.TimeInForce;
 
 public class NewOrderSingle extends AbstractMessage implements stirling.fix.messages.NewOrderSingle {
     public NewOrderSingle(MessageHeader header) {

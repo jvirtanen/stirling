@@ -21,7 +21,7 @@ import stirling.fix.messages.MessageVisitor
 import stirling.fix.messages.Required
 import stirling.fix.messages.{TradeCancelCorrect => TradeCancelCorrectTrait}
 import stirling.fix.messages.Value
-import stirling.fix.tags.fix42.{
+import stirling.fix42.{
   Account,
   AvgPx,
   ClOrdID,

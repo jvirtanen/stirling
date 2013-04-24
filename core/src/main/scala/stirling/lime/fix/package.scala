@@ -16,7 +16,8 @@
 package stirling.lime
 
 import stirling.fix.messages
-import stirling.fix.tags._
+import stirling.fix.tags.{fix43, fix44}
+import stirling.fix42
 
 package object fix {
   type Message = messages.Message

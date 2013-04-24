@@ -19,9 +19,9 @@ import stirling.fix.messages.AbstractMessage
 import stirling.fix.messages.MessageHeader
 import stirling.fix.messages.MessageVisitor
 import stirling.fix.messages.Required
-import stirling.fix.tags.fix42.EncryptMethod
-import stirling.fix.tags.fix42.HeartBtInt
-import stirling.fix.tags.fix42.ResetSeqNumFlag
+import stirling.fix42.EncryptMethod
+import stirling.fix42.HeartBtInt
+import stirling.fix42.ResetSeqNumFlag
 import stirling.fix.tags.fix44.Password
 import stirling.fix.tags.fix44.Username
 

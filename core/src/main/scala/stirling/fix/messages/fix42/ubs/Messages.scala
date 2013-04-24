@@ -17,7 +17,7 @@ package stirling.fix.messages.fix42.ubs
 
 import stirling.fix.messages.MessageHeader
 import stirling.fix.messages.Required
-import stirling.fix.tags.fix42.{
+import stirling.fix42.{
   AvgPx,
   ClOrdID,
   CumQty,

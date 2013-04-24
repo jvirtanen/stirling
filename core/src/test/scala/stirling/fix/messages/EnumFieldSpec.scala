@@ -17,7 +17,7 @@ package stirling.fix.messages
 
 import org.scalatest.WordSpec
 import org.scalatest.matchers.MustMatchers
-import stirling.fix.tags.fix42.Side
+import stirling.fix42.Side
 
 class EnumFieldSpec extends WordSpec with MustMatchers {
   "EnumField" should {

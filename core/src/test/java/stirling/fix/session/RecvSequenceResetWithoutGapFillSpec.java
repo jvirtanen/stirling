@@ -19,7 +19,7 @@ import jdave.junit4.JDaveRunner;
 import org.junit.runner.RunWith;
 
 import stirling.fix.messages.fix42.MsgTypeValue;
-import stirling.fix.tags.fix42.NewSeqNo;
+import stirling.fix42.NewSeqNo;
 
 @RunWith(JDaveRunner.class) public class RecvSequenceResetWithoutGapFillSpec extends InitiatorSpecification {
     public class InitializedSession {

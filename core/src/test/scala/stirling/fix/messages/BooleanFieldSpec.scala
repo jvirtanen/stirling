@@ -17,7 +17,7 @@ package stirling.fix.messages
 
 import org.scalatest.WordSpec
 import org.scalatest.matchers.MustMatchers
-import stirling.fix.tags.fix42.PossDupFlag
+import stirling.fix42.PossDupFlag
 
 class BooleanFieldSpec extends WordSpec with MustMatchers {
   "BooleanField" when {

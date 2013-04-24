@@ -20,9 +20,9 @@ import java.util.List;
 
 import stirling.fix.messages.Validator.ErrorHandler;
 import stirling.fix.session.Session;
-import stirling.fix.tags.fix42.BusinessRejectReason;
-import stirling.fix.tags.fix42.OrigSendingTime;
 import stirling.fix.tags.fix43.SessionRejectReason;
+import stirling.fix42.BusinessRejectReason;
+import stirling.fix42.OrigSendingTime;
 
 public class MessageValidator {
     private static final List<Validator<Message>> validators = new ArrayList<Validator<Message>>() {

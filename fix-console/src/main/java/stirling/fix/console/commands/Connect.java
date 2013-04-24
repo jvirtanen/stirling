@@ -36,8 +36,8 @@ import stirling.fix.messages.FixMessageParser;
 import stirling.fix.messages.fix42.MsgTypeValue;
 import stirling.fix.session.HeartBtIntValue;
 import stirling.fix.session.Session;
-import stirling.fix.tags.fix42.ClOrdID;
-import stirling.fix.tags.fix42.OrderID;
+import stirling.fix42.ClOrdID;
+import stirling.fix42.OrderID;
 
 public class Connect implements Command {
     private static final Logger logger = Logger.getLogger("ConsoleClient");

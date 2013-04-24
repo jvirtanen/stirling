@@ -16,7 +16,7 @@
 package stirling.fix.messages
 
 import org.joda.time.DateTime
-import stirling.fix.tags.fix42.{
+import stirling.fix42.{
   BeginSeqNo,
   EndSeqNo,
   GapFillFlag,

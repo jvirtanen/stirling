@@ -20,7 +20,7 @@ import java.nio.ByteBuffer;
 
 import stirling.fix.messages.FixMessage;
 import stirling.fix.messages.fix42.DefaultMessageFactory;
-import stirling.fix.tags.fix42.MsgSeqNum;
+import stirling.fix42.MsgSeqNum;
 
 public class Parser {
     public interface Callback {

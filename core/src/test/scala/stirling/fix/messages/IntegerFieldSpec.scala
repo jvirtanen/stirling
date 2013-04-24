@@ -17,7 +17,7 @@ package stirling.fix.messages
 
 import org.scalatest.WordSpec
 import org.scalatest.matchers.MustMatchers
-import stirling.fix.tags.fix42.BeginSeqNo
+import stirling.fix42.BeginSeqNo
 
 class IntegerFieldSpec extends WordSpec with MustMatchers {
   "IntegerField" should {

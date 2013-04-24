@@ -42,7 +42,7 @@ import stirling.fix.messages.{
   TradeCaptureReportRequest => TradeCaptureReportRequestTrait,
   TradeCaptureReportRequestAck => TradeCaptureReportRequestAckTrait
 }
-import stirling.fix.tags.fix42.{
+import stirling.fix42.{
   Account,
   AvgPx,
   BidPx,

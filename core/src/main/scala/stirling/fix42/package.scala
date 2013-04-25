@@ -21,5 +21,11 @@ import stirling.fix.tags.fix43
 package object fix42 {
   type Message = messages.Message
 
+  type Heartbeat     = messages.Heartbeat
+  type Logout        = messages.Logout
+  type ResendRequest = messages.ResendRequest
+  type SequenceReset = messages.SequenceReset
+  type TestRequest   = messages.TestRequest
+
   val SessionRejectReason = fix43.SessionRejectReason
 }

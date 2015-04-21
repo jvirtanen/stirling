@@ -15,7 +15,6 @@ object StirlingBuild extends Build {
     javacOptions                             ++= Seq("-Xlint:unchecked"),
     crossScalaVersions                        := Seq("2.9.2", "2.10.0"),
     resolvers                                ++= Seq(laughingPanda, mpeltonen, valotrading),
-    testListeners                            <<= (target).map(t => Seq(new eu.henkelmann.sbt.JUnitXmlTestsListener(t.getAbsolutePath))),
     parallelExecution in Test                 := false,
     exportJars                                := true,
     publishArtifact in (Compile, packageDoc)  := false,

@@ -3,7 +3,7 @@
 CURL="curl"
 
 JAVA="java"
-JAVA_OPTS="-Xms512M -Xmx2048M -Xss1M -XX:MaxPermSize=512M"
+JAVA_OPTS="-Xms512M -Xmx2048M -Xss1M"
 
 SBT_VERSION=$(grep sbt.version project/build.properties | sed -e "s/sbt.version=//g")
 SBT="sbt-launch-$SBT_VERSION.jar"

@@ -1,5 +1,4 @@
 import com.github.retronym.SbtOneJar
-import com.typesafe.sbt.SbtStartScript
 
 import sbt._
 import Keys._

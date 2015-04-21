@@ -11,11 +11,10 @@ object StirlingBuild extends Build {
   lazy val commonSettings = Defaults.defaultSettings ++ Seq(
     organization                              := "stirling",
     version                                   := "1.6.5-SNAPSHOT",
-    scalaVersion                              := "2.10.0",
+    scalaVersion                              := "2.10.5",
     javacOptions                             ++= Seq("-Xlint:unchecked"),
-    crossScalaVersions                        := Seq("2.9.2", "2.10.0"),
+    crossScalaVersions                        := Seq("2.9.2", "2.10.5"),
     resolvers                                ++= Seq(laughingPanda, mpeltonen, valotrading),
-    testListeners                            <<= (target).map(t => Seq(new eu.henkelmann.sbt.JUnitXmlTestsListener(t.getAbsolutePath))),
     parallelExecution in Test                 := false,
     exportJars                                := true,
     publishArtifact in (Compile, packageDoc)  := false,

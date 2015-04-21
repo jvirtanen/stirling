@@ -2,3 +2,4 @@ target/
 /sbt-launch-*.jar
 /fix-console.jar
 /fix-console.log
+/fix-perftest.jar

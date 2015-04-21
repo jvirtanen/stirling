@@ -72,7 +72,9 @@ object StirlingBuild extends Build {
     id           = "stirling-fix-perftest",
     base         = file("fix-perftest"),
     dependencies = Seq(stirlingCore),
-    settings     = commonSettings ++ SbtStartScript.startScriptForClassesSettings
+    settings     = commonSettings ++ SbtOneJar.oneJarSettings ++ Seq(
+      artifactPath in SbtOneJar.oneJar := new File("fix-perftest.jar")
+    )
   )
 
   object Resolvers {

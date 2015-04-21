@@ -23,6 +23,7 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Random;
 
+import org.HdrHistogram.Histogram;
 import silvertip.Connection;
 import silvertip.Events;
 import stirling.fix.messages.FixMessage;
@@ -100,16 +101,18 @@ public class PerformanceTest implements Runnable {
             client.start();
             server.join();
             client.join();
-            long[] diff = new long[NUM_MESSAGES];
+            Histogram histogram = new Histogram(3);
             for (int i = 0; i < NUM_MESSAGES; i++) {
-                diff[i] = rx[i] - tx[i];
+                histogram.recordValue(rx[i] - tx[i]);
             }
             long end = System.nanoTime();
-            System.out.printf("Time  : %.2f sec\n" , nanosToSeconds(end - start));
-            System.out.printf("Min   : %.2f msec\n", nanosToMillis((double) Stats.min(diff)));
-            System.out.printf("Max   : %.2f msec\n", nanosToMillis((double) Stats.max(diff)));
-            System.out.printf("Avg   : %.2f msec\n", nanosToMillis(Stats.mean(diff)));
-            System.out.printf("Stddev: %.2f msec\n", nanosToMillis(Stats.stddev(diff)));
+            System.out.printf(" Time  : %.2f sec\n" , nanosToSeconds(end - start));
+            System.out.printf(" 50.00%%: %.2f msec\n", nanosToMillis(histogram.getValueAtPercentile( 50.00)));
+            System.out.printf(" 90.00%%: %.2f msec\n", nanosToMillis(histogram.getValueAtPercentile( 90.00)));
+            System.out.printf(" 99.00%%: %.2f msec\n", nanosToMillis(histogram.getValueAtPercentile( 99.00)));
+            System.out.printf(" 99.90%%: %.2f msec\n", nanosToMillis(histogram.getValueAtPercentile( 99.90)));
+            System.out.printf(" 99.99%%: %.2f msec\n", nanosToMillis(histogram.getValueAtPercentile( 99.99)));
+            System.out.printf("100.00%%: %.2f msec\n", nanosToMillis(histogram.getValueAtPercentile(100.00)));
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
